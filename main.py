@@ -38,5 +38,5 @@ def help():
 def datascience():
     return 'welcome to data science page'
 
-
-app.run(debug=True)
+if __name__=='__main__':
+    app.run(debug=True)
